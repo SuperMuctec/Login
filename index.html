@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="playcdn.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login -- Supermuctec</title>
+</head>
+<body class="bg-[url('background.jpg')] bg-cover">
+    <div class="relative my-[150px] mx-[700px] group">
+        <!-- First Div -->
+        <div class="absolute inset-0 flex items-center justify-center rounded-lg border-2 py-[300px] backdrop-blur-[0.01px] transform-gpu transition-transform duration-700 group-hover:-rotate-12">
+            <div></div>
+        </div>
+    
+        <!-- Second Div -->
+        <div class="absolute inset-0 flex items-center justify-center rounded-lg border-2 py-[300px] backdrop-blur-[0.01px] transform-gpu transition-transform duration-700 group-hover:rotate-12">
+            <div></div>
+        </div>
+    
+        <!-- Hover Trigger Div -->
+        <div class="absolute inset-0 flex items-center justify-center rounded-lg border-2 py-[300px] backdrop-blur-[0.01px] transform-gpu transition-all duration-1000 ease-in-out hover:backdrop-blur-lg">
+            <div>
+                <p class="absolute -top-[-40px] text-8xl font-extrabold text-white">Login</p>
+                <input type="text" class="w-[280px] rounded-2xl h-8 flex -mt-[0px] pl-2 focus:outline-none placeholder-slate-400 font-sans" placeholder="Username">
+                <input type="password" class="w-[280px] rounded-2xl h-8 flex mt-[40px] pl-2 focus:outline-none placeholder-slate-400 font-sans" placeholder="Password">
+                
+                <a href="#" class="absolute -top-[-375px] left-[70px] font-light underline text-white hover:text-teal-500 transform-gpu transition-transform hover:-translate-y-1">Forgot Password</a>
+
+                <button class="absolute -top-[-420px] left-[213px] rounded-full bg-slate-50 px-5 py-2 font-bold transform-gpu transition-transform duration-500 hover:-translate-y-1 shadow-lg">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
